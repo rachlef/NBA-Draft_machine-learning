@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=""width=device-width, initial-scale=1.0>
+        <title>Predicting NBA Players</title>
+        <link rel="stylesheet" href="style.css">
+        <!--Bootstrap link-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"> 
+        <link href="https://fonts.cdnfonts.com/css/marty" rel="stylesheet">
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/marty');
+        </style>
+<style>
+    #nbaintrovid {
+    position:center;
+    left: 0;
+    right:0;
+    bottom:0;
+    width: 100%;
+    height: 10%;
+}
+</style>
+
+    </head>
+
+<body style="background-color:rgba(105, 4, 4, 0.779);">
+    <!--Header-->
+    <video id="nbaintrovid" loop autoplay></video>
+<script>
+  var video = document.getElementById('nbaintrovid');
+  video.src = '/NBA Predict/video.mp4/Your Dream Team (1).mp4';
+  video.type = 'video/mp4';
+</script>
+    <section>
+    
+        <h1> Its All About The NBA</h1>
+        <hr width="350px">
+    <p style="margin-left: 30px;"></pstyle> <h5>When did it all start<strong>?</strong></h5> <br>
+        
+        In order for the NBA to make its slam dunks of today, <u>the <mark>ABL </mark>( American Basketball League founded in 1925)</u>, 
+        <u>the <mark>NBL </mark>(National Basketball League founded in 1937) </u>and <u>the<mark>BAA</mark>  (Basketball American Association founded in 1946)</u> 
+        <a href = "https://www.prosportsfanatics.com/nba/the-history-of-the-nba " target = "_self">Supported Study</a><br>
+        
+        all had to first learn how to walk, then dribble, then shoot. The trials and tribulations that these leagues learned from,
+         paved the normalcy, rules and regulations that we know of today; such as but not limited to, making backboards mandatory,
+          adding a three-second lane violation, implementing foul outs, eliminating the double dribble and signing players to contracts. 
+          These are all elements and incentives that facilitated the enhancement of skill sets a player needed, in order to perform and 
+          strive for optimal success individually and collectively as a team. 
+         <br> 
+       <br> The BAA quickly learned that <u>enhanced performers,</u> <u>needs an enhanced stage. </u>
+       <br>The prior leagues were used to playing in small areas such as ballrooms and school gyms. 
+       But, the BAA was the first league that attempted to play primarily in <u><strong>large</strong></u> arenas in <u><strong>major</strong></u> cities, such as <mark>Madison Square Garden</mark> and <mark>Boston Garden</mark>. 
+       <p>And the growth didn’t stop there!<br></p>
+       <br>
+        So, on August 3, 1949, the BAA agreed to merge with the NBL, creating <mark>National Basketball Association aka the NBA. 
+        </mark> <br>
+      <center><br> <font size="3">Enhanced performers</font> <font size="4"><strong>+</strong> enhanced stage <u>NEEDS</u></font> <font size="5"> a solid drafting process</font> </center> 
+      <hr width="2000px">
+    </TD> </TR> </TABLE>
+    </section>
+    
+<section>
+    
+       <h1> <b>Current NBA Draft Process</b> </h1>
+    <p style="margin-left: 30px;"></pstyle> 
+        <h5>What’s the formula?</h5>
+        <TABLE BORDER> <TR> <TD></TD>
+        <div align="margin-left">
+            <div class="container2">
+                  <img src="/NBA Predict/nba pic1.jpg" alt="" class="image" height="200px" width="150px"></a>
+                <div class="overlay">
+                    <div class="text"><mark><strong><u>General Dos:</u></strong></mark><br>&#10004;The NBA Draft allows teams to draft 30 players in each of two rounds,<br>
+                          <br>&#10004;Teams are given one pick per round,<br>
+                          <br>&#10004;teams that didn't make the playoffs get earlier picks in the first round.</div>
+                </div>
+            </div>
+            <div class="container2">
+                    <img src="/NBA Predict/NBA pic2.jpg" alt="" class="image">
+                    <div class="overlay overlay2">
+                        <div class="text"><mark><strong><u>Criteria:</u></strong></mark> <br>&#10004;must at least be 19, <br>
+                           <br> &#10004;finished 4 years of college, <br>
+                            <br>&#10004;signed a contract with a professional team <u>OUTSIDE</u> of the NBA and played for them for at least a year</div>
+                    </div>
+            </div>
+            <div class="container2">
+                <img src="/NBA Predict/nba pic4.jpg" alt="" class="image">
+                <div class="overlay overlay3">
+                    <div class="text"><mark><strong><u>What scouts are looking for:</u></strong></mark><br>
+                        <br><mark><strong><u>Physical Status:</u></strong></mark> <br>
+                        <br>&#10004;demographics, &#10004;position, and &#10004;conditioning<br>
+                        <br><mark><strong><u>Players' skillset</u></strong></mark><br>&#10004;shooting and &#10004;scoring capabilities, 
+                        &#10004;ball handling,&#10004; defensive capabilities, and &#10004;passing abilities<br>
+                        <br><mark><strong><u><mark>&#10002;</mark>In addition:</u></strong></mark><br>attempt to note the presence or absence of intangibles such as coach-ability, character, desire, and instincts.</div>
+                </div>
+            </div>
+            </div> 
+        
+    </p>
+        
+    </div>
+    </section>
+</TD> </TR> </TABLE>
+
+    <section>
+        <p>
+             <mark>So lets take a look at how these attributes could impact points scored....</mark>
+        </p>
+      
+        <u><p>Dataset used for this were NBA stats:</p></u>&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;
+                
+                <hr width="550px">
+               <hr border="solid"> <p>The data set contains over two decades of data on each player who has been part of an NBA teams' roster. It captures demographic variables such as age, height, weight and place of birth, biographical details like the team played for, draft year and round. In addition, it has basic box score statistics such as games played, average number of points, rebounds, assists, etc</p><hr>
+        </div>
+        <center>
+        <iframe src="https://public.tableau.com/views/NBAPredict/PlayersVsPhysicalAttributeandSkillset?:showAppBanner=false&:showVizHome=no&:embed=true&:origin=viz_share_link"class="census-reporter-embed" frameborder="1" width="100%" height="300" style="margin: 1em; max-width: 720px; border: 2px solid rgb(23, 20, 20)"></iframe></center>
+  
+        <center>
+            <iframe src="https://public.tableau.com/views/NBAPredict/PlayersStatsvsDraftFrequencyandRounds?:language=en-US&:display_count=n&:origin=viz_share_link?:showAppBanner=false&:showVizHome=no&:embed=true&:origin=viz_share_link"class="census-reporter-embed" frameborder="1" width="100%" height="300" style="margin: 1em; max-width: 720px; border: 2px solid rgb(23, 20, 20)"></iframe></center>
+        <p style="margin-left: 30px;"></pstyle>
+            There are few sports where there is an obvious impact between physical attribute and performance; for instance,
+             basketball has a bias towards taller people. But even within this, it’s not a 
+             direct relationship<mark><strong>; taller the better is <u>not</u> always true.</strong></mark> 
+             <br>
+             <br>Looking at these data visuals and cross referencing <mark>based on player stats alone is <u>unpredicatable&#8594;</u></mark>  
+            due to <mark>limitations in standardizing the assessment of the presence or absence of intangibles components  
+            such as coach-ability, character, desire, and instincts.</mark> Teams, drafters, and/or scouters all have to evaluate physical abilities, 
+            skill sets, mental attributes, and their potential for growth, which only <u>adds to the challenge.</u>
+    </section>
+    <section>
+        <h1>Benefits of machine learning</h1>
+        <br><h5>what is machine learning<strong>?</strong></h5><br>
+        <p>
+        Machine learning is the capability of <mark>a machine to imitate intelligent human behavior.</mark>
+         Its an artificial intelligence systems that is used to perform complex tasks in a way that is similar 
+         to how humans would solve problems <mark>but, better.</mark>
+        </p>
+    </section>
+    <br> 
+    <p>
+    <h5>What can it offer?</h5> <br>
+   <strong>&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;</strong> 
+    <TABLE BORDER> <TR> <TD></TD>
+   <div align="margin-left">
+            <div class="container3">
+                  <img src="/NBA Predict/nba pic 3.jpg" alt="" class="image" height="350px" width="150px"></a>
+                <div class="overlay">
+                    <div class="text2"><space></space>&#9999;Utilizing machine learning in the draft process could provide benefits as teams are often faced 
+                        with challenges and risks when selecting players, due to the complexity involved. </div>
+                </div>
+            </div>
+            <div class="container3">
+                    <img src="/NBA Predict/nbapic6.jpg" alt="" class="image"height="350px" width="150px"></a>
+                    <div class="overlay overlay2">
+                        <div class="text2"><space></space>&#9999;By leveraging vast amounts of data, machine learning models can analyze player performance,
+                            college statistics, and other relevant factors to make more informed predictions about a player's 
+                            potential success in the NBA.</div>
+                    </div>
+            </div>
+            <div class="container3">
+                <img src="/NBA Predict/nba pic5.jpg" alt="" class="image"height="250px" width="150px"></a>
+                <div class="overlay overlay3">
+                    <div class="text2"><space></space>&#9999;These predictive models can aid teams in their decision-making process,
+                        providing valuable insights that may enhance draft predictability and increase the likelihood of
+                        identifying future stars for their rosters.</div>
+                </div>
+            </div>
+            </div> 
+        
+    </p>
+    <section>
+        <p>
+            <h5>The dataset used for Machine learning</h5><br>
+            <br>
+            <p><strong>CollegeBasketballPlayers2009-2021</strong></p>
+            <strong>&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;&#8595;</strong>
+            <center>
+                <iframe 
+                src="/NBA Predict/updated_last_pro_03/last_pro_03/csv/CollegeBasketballPlayers2009-2021.pdf"
+                width="100%" 
+                height="400%"
+              >
+            </iframe></center>
+            <script>
+                CsvToHtmlTable.init({
+                  csv_path: '/NBA Predict/updated_last_pro_03/last_pro_03/csv/CollegeBasketballPlayers2009-2021.csv', 
+                  element: 'table-container', 
+                  allow_download: true,
+                  csv_options: {separator: ',', delimiter: '"'},
+                  datatables_options: {"paging": false}
+                });
+              </script>
+          <p>A kaggle dataset.  Its key features are: <mark>covering college 
+            statistics, player characteristics, and draft outcomes.</mark> <br>Knowing about a player's performance is key, 
+            and <mark>data on college statistics such as rebounds, assists, shooting rates, and points give valuable insight.</mark>
+            <br>The player's physical attributes such as height, weight, and position also figure in their profile.
+            <br>Furthermore, within the dataset, there exists information about draft outcomes such as the chosen players,
+            their draft position, and the teams who picked them. <br>
+            <br><mark>⭐Vital factors in creating dependable predictions rest 
+            on  <u>feature engineering and data preprocessing.</u> </mark><br>
+            <br><mark>Feature Engineering</mark><br>   <div class="flex"></divclass><img class="animated-gif" src="/NBA Predict\nbavid2.gif"></div>
+            Transforming or creating new features that accurately depict
+            the underlying patterns and relationships in the data.<br>
+            <i><u>steps include:</u></i>  <br>
+            &#11035; scaling, <br> &#11035;encoding categorical variables, <br>&#11035; gathering valuable data from existing features.<br> 
+            <mark>Data Preprocessing Stage</mark><br>
+            <br>&#11035;Cleaning the dataset<br>&#11035; dealing with missing values and outliers<br> &#11035;normalizing the data <br>
+             <br>These key steps are essential in ridding noisy and inconsistent data, 
+            as they can impact model performance in the NBA draft context, thereby guaranteeing more precise
+            predictions.</p>
+            
+        </p>
+    </section>
+    <section>
+        <p>
+            <h5>Model Development:</h5><br>
+            <p> &#128161;In order <mark>to forecast NBA draft results</mark> through the use of college statistics, <mark>we employed a variety of machine 
+            learning techniques.</mark> <br>
+            <br>&#11035;decision trees,<br>&#11035; random forests,<br>&#11035;  neural networks – algorithms that were 
+            chosen specifically because of their proficiency in managing intricate patterns while still providing precise prognoses. <br>
+            <br>&#128161;Algorithms were fed the dataset during the model training process, with optimization being the primary goal.<br>
+           <br><mark>Techniques used: <br></mark>
+            <br>&#11035;hyperparameter tuning,<br>&#11035; cross-validation,<br>&#11035;model selection.<br>
+            <br>&#128161; The latter involved evaluating models based on key metrics to determine which performed the best. <br>
+            <br><mark>Cross-validation&#187;&#187;&#187; </mark> <space></space>split data into training and validation sets &#187;
+            this allowed for multiple performance evaluations. <br>
+            <br><mark>Hyperparameter tuning&#187;&#187;&#187;</mark> adjusted various model parameters to enhance prediction accuracy.</p>
+        
+
+        </p>
+    </section>
+    <p><mark>&#9993;</mark>Here lies the Jupyternotebook file of code for machine learning <a href="Untitled2.ipynb">example</a>.</p>
+    <center><iframe 
+    src="/NBA Predict/Untitled2.html"
+    width="1200px"
+    height="600px"
+  >
+</iframe></center>
+    <section>
+        <p>
+            <h5>Results and finding:</h5><br>
+
+            <P><strong>&#9757;NBA Predictions</strong></P>
+    <iframe 
+    src="/NBA Predict/predictions2021.pdf"
+    width="1200px"
+    height="600px"
+          >
+    </iframe>
+        <br>
+       <P><strong>&#9757;NBA Predictions With XGB Optimizer</strong></P>
+        <iframe 
+            src="/NBA Predict/xgb_predictions_2021.pdf"
+            width="1200px"
+    height="600px"
+          >
+        </iframe>
+            <p>
+                <br>
+               <mark>Discussion:</mark> <br>
+            The data in this dataset proved to be very difficult to scale and properly fit with the model. We found with each of our models 
+            that the accuracy was low and that we experience issues with the data's scalability and fitting the data to the model. Our regression 
+            analysis with the validation data shows that the model was not fitting well, with the values not following the trend line closely or at all. 
+            We did not have too high of loss for this model however, our regression visualizations show that this model is testing accurately or capable 
+            of producing accurate results.  
+            </p>
+             
+            
+            The training and validation datasets and predictions vary, the model loss in the predictions made with the training dataset does not vary much 
+            however loss does decrease when predictions were made with the validation data. The last regression visualization resulting from our
+             neural network model indicates that the data did not fit very well with this model and does not give us a strong indication of leverage or 
+             pulling towards a direction more.
+            
+           <p>
+            <mark>Limitations:</mark> <br> Neural networks primarily rely on statistical data for analysis. While statistics play a crucial role in evaluating
+             NBA draft prospects, they may not capture certain intangible qualities such as leadership, work ethic, basketball IQ, or teamwork.
+              These factors, often observed through subjective evaluations, can significantly impact a player's success but are difficult to quantify
+               and incorporate effectively into a neural network model.
+            
+           </p> 
+           <p>
+            <mark><indent>Take aways:</indent></mark> <br>Evolution of player skills: NBA draft prospects, especially younger players, are still developing their skills
+             and can exhibit rapid improvement or regression over a short period. Neural networks typically capture patterns based on historical data,
+              and their predictions may not fully account for potential skill growth or decline. Keeping up with the latest player developments and 
+              incorporating them into the model can be challenging.Neural networks can still provide valuable insights into NBA draft prospects,
+               but it is essential to consider these limitations.
+           </p> 
+        <section>
+            <p>
+                <h1>
+                    Conclusion
+                </h1>
+                The NBA's draft process is an essential part of the league, allowing teams to recruit new talent and build their roster. However, 
+                these trends are uncertain and pose difficulties in selecting future stars. A number of factors contribute to the decision-making process,
+                 such as physical ability, intelligence, and developmental potential. Machine learning is very useful in developing predictive models using 
+                 big data and predictive models. By analyzing player performance and college statistics, teams can make more informed predictions about a player's performance. 
+                 Models such as decision trees, random forests, and neural networks enhance model development, while feature engineering and prior data are essential for accurate prediction. 
+                 While there are limitations, such as the inability to catch certain attributes and the potential benefits of player development, the combination of human intelligence and 
+                 machine learning can transform the NBA system and turn the team into a long-term success.
+            </p>
+        </section>
+            
+            
+       
+
+    <section>
+        
+            <h1> Let's Be Resourceful</h1>
+            <hr width="350px">
+            <a href = "https://knickscentral.com/2023/03/your-comprehensive-guide-to-understanding-the-nba-draft-and-lottery/#:~:text=The%20draft%20is%20a%20way,their%20picks%20with%20other%20teams." target = "_self">understanding the nba</a><br>
+            <a href = "https://www.prosportsfanatics.com/nba/the-history-of-the-nba" target = "_self">the history of nba</a><br>
+      
+    </section>
+    
+  <!-- JavaScript file -->
+  <script type="text/javascript" src="js/NBA.js"></script>
+</body>
+
+</html>
+
+

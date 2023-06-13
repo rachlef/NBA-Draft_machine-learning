@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Marty', sans-serif;
+                                                
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/sports/spo-2/spo145.cur), auto !important;} /* End https://www.cursors-4u.com */
+
+  h1{
+
+    -webkit-text-stroke: 2px  rgb(26, 83, 159);
+}
+    
+h5{
+border-style: solid;
+border-width: 3px;
+border-left-width: 10px;
+border-right-width: 10px;
+border-color: beige;
+}
+
+.container2 {
+    position: relative;
+    width: 350px;
+    display: inline-block;
+    padding:0;
+    margin: 0;
+  }
+  
+  .image {
+    display: block;
+    width: 350px;
+    height: 300px;
+    height: auto;
+    margin: 17%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 30px;
+    justify-content: center
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4CAF50;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    margin-left: 17%;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    pointer-events: none
+  }
+  
+  .container2:hover .overlay {
+    height: 85%;
+  }
+  
+  .text {
+    color: rgb(52, 47, 47);
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4CAF50;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    margin-left: 17%;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    pointer-events: none
+  }
+  .container2:hover .overlay2 {
+    height: 85%;
+  }
+  .overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4CAF50;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    margin-left: 17%;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    pointer-events: none
+  }
+  .container2:hover .overlay3 {
+    height: 85%;
+  }
+  hr{
+    border-style: solid;
+border-width: 5px;
+border-left-width: 10px;
+border-right-width: 10px;
+border-color: beige;
+}
+.container3 {
+    position: relative;
+    width: 350px;
+    display: inline-block;
+    padding:0;
+    margin: 0;
+  }
+  
+  .image {
+    display: block;
+    width: 350px;
+    height: 300px;
+    height: auto;
+    margin: 17%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 30px;
+    justify-content: center
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4CAF50;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    margin-left: 17%;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    pointer-events: none
+  }
+  
+  .container3:hover .overlay {
+    height: 85%;
+  }
+  
+  .text2 {
+    color: rgb(52, 47, 47);
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4CAF50;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    margin-left: 17%;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    pointer-events: none
+  }
+  .container3:hover .overlay2 {
+    height: 85%;
+  }
+  .overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #4CAF50;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    margin-left: 17%;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    pointer-events: none
+  }
+  .container3:hover .overlay3 {
+    height: 85%;
+  }
+  img.animated-gif{
+    width: 300px;
+    height: auto;
+    float: right;
+  }
